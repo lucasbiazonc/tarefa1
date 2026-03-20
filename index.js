@@ -12,7 +12,7 @@ let mensagem = 'O resultado da soma é {soma}, e o resultado da subtração é {
 
 let msg2 = soma >=100? 'Sua soma é maior que 100': 'Sua soma é menor que 100';
 //a msg2 e msg foram usadas para substituir o if e else e tornar mais rápido usando arrow
-let msg = soma >=100? 'Sua subtração é maior que 100': 'Sua subtração é menor que 100';
+let msg = sub >=100? 'Sua subtração é maior que 100': 'Sua subtração é menor que 100';
 
 //Os consoles para poder aparecer no final os resultados
 console.log (mensagem);
