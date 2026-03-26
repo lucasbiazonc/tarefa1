@@ -20,9 +20,10 @@ console.log (msg2);
 console.log (msg);
 
 
-//Tarefa dos slides
+//Tarefa dos slides 1(compra)
 console.log();
-console.log('Atividade 2');
+//indicar qual a ativadade
+console.log('Atividade 2(compra)');
 let nome = 'Lucas';
 let produto = "garrafas d'água";
 let preço = 5.93;
@@ -30,3 +31,10 @@ let quantidade = 5;
 let total = 29.65;
 let msg3 = `Olá, ${nome}! Você comprou ${quantidade} ${produto} com cada uma custado R$${preço} dando no total R$${total}. `;
 console.log(msg3);
+
+console.log()
+//Tarefa dos slides 1(Idade)
+console.log('Atividade 2(Idade)')
+let idade  = 16
+let msg4 = idade >=18? `Ola ${nome}! Você é maior de idade.`: `Olá ${nome}! Você é menor de idade.`;
+console.log(msg4);
