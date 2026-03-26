@@ -18,3 +18,15 @@ let msg = sub >=100? 'Sua subtração é maior que 100': 'Sua subtração é men
 console.log (mensagem);
 console.log (msg2);
 console.log (msg);
+
+
+//Tarefa dos slides
+console.log();
+console.log('Atividade 2');
+let nome = 'Lucas';
+let produto = "garrafas d'água";
+let preço = 5.93;
+let quantidade = 5;
+let total = 29.65;
+let msg3 = `Olá, ${nome}! Você comprou ${quantidade} ${produto} com cada uma custado R$${preço} dando no total R$${total}. `;
+console.log(msg3);
