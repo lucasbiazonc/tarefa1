@@ -36,5 +36,5 @@ console.log()
 //Tarefa dos slides 1(Idade)
 console.log('Atividade 2(Idade)')
 let idade  = 16
-let msg4 = idade >=18? `Ola ${nome}! Você é maior de idade.`: `Olá ${nome}! Você é menor de idade.`;
+let msg4 = idade >=18? `Ola ${nome}! Você é maior de idade, pois possui ${idade}.`: `Olá ${nome}! Você é menor de idade, pois possui ${idade}.`;
 console.log(msg4);
