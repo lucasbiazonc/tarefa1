@@ -1,10 +1,12 @@
+const prompt = require('readline-sync');
+
 //O inicio e onde eu criei as variavel pra colocar os números
-let n1 = 56;
-let n2 = 98;
+let n1 = prompt.question('Digite o 1° número: ');
+let n2 = prompt.question('Digite o 2° número: ');
 
 //Crie variaveis constantes para fazer os calculos
 const soma = n1 + n2;
-const sub = n1 - n2
+const sub = n1 - n2;
 
 //Criei as mensagens para poder falar no final os resultados
 let mensagem = 'O resultado da soma é {soma}, e o resultado da subtração é {sub}'.replace('{soma}', soma) .replace('{sub}', sub);
@@ -24,7 +26,7 @@ console.log (msg);
 console.log();
 //indicar qual a ativadade
 console.log('Atividade 2(compra)');
-let nome = 'Lucas';
+let nome =  prompt.question('Digite o seu nome: ');
 let produto = "garrafas d'água";
 let preço = 5.93;
 let quantidade = 5;
@@ -35,6 +37,9 @@ console.log(msg3);
 console.log()
 //Tarefa dos slides 1(Idade)
 console.log('Atividade 2(Idade)')
-let idade  = 16
+let idade  =  prompt.question('Digite a sua idade: ');
 let msg4 = idade >=18? `Ola ${nome}! Você é maior de idade, pois possui ${idade}.`: `Olá ${nome}! Você é menor de idade, pois possui ${idade}.`;
 console.log(msg4);
+
+
+
