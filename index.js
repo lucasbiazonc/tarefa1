@@ -6,6 +6,7 @@ let n2 = prompt.question('Digite o 2° número: ');
 
 //Crie variaveis constantes para fazer os calculos
 const soma = n1 + n2;
+//o soma está com problema, ele está juntando os números ao inves de soma-los
 const sub = n1 - n2;
 
 //Criei as mensagens para poder falar no final os resultados
