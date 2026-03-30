@@ -1,8 +1,10 @@
+//readline foi usado para permitir escrever no console
 const prompt = require('readline-sync');
 
 //O inicio e onde eu criei as variavel pra colocar os números
 let n1 = Number(prompt.question('Digite o 1° número: '));
 let n2 = Number(prompt.question('Digite o 2° número: '));
+//o number foi colocado pois se não seria sting, e o prompt.question foi usado para usar o readline
 
 //Crie variaveis constantes para fazer os calculos
 const soma = n1 + n2;
@@ -41,6 +43,4 @@ console.log('Atividade 2(Idade)')
 let idade  = Number(prompt.question('Digite a sua idade: '));
 let msg4 = idade >=18? `Ola ${nome}! Você é maior de idade, pois possui ${idade}.`: `Olá ${nome}! Você é menor de idade, pois possui ${idade}.`;
 console.log(msg4);
-
-
 
